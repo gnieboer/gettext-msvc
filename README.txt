@@ -1,7 +1,9 @@
-Visual Studio 2013 solution for gettext-0.19.4 and libiconv-1.14
+Visual Studio 2015 solution for gettext-0.19.4 and libiconv-1.14
 ================================================================
 
-This lets you build libintl (from gettext) and libiconv with Visual Studio 2013.
+[This is a modified version from the original to allow VS 2015 instead of 2013]
+
+This lets you build libintl (from gettext) and libiconv with Visual Studio 2015.
 (These two libraries are just enough to build Minetest with gettext support.)
 
 Notes:
@@ -14,7 +16,7 @@ Notes:
 
 - None of the utilities (such as xgettext) will be built.
 
-- This has only been tested with Visual Studio Express 2013.
+- This has only been tested with Visual Studio Community 2015.
 
 - 32 bit and 64 bit builds are both supported.
 
